@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "@supabase/supabase-js": "^2.44.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "init": "^0.1.2",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.16.1",
+    "supertest": "^7.0.0"
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "obiugochukwu003@gmail.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
